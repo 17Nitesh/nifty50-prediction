@@ -9,7 +9,7 @@ app = FastAPI()
 # CORS middleware to allow requests from any origin
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows all origins
+    allow_origins=["https://niftyninja.streamlit.app/"],  # Allows all origins
     allow_credentials=True,
     allow_methods=["GET"],  # Allows only GET method
     allow_headers=["*"],  # Allows all headers
