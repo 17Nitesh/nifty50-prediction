@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables or secrets
+*.env
+
+# Model files and scalers (if stored elsewhere)
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Logs and outputs
+*.log
+
+# Docker
+*.tar
+*.pid
+
+# Render build artifacts
+render.yaml
+render-build.sh
+
+# Ignore data files (optional)
+*.csv
+*.xlsx
+*.zip
+data/
